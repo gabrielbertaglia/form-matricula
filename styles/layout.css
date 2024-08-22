@@ -11,8 +11,8 @@ main {
   padding: 4rem;
 
   .main-container {
-      max-width: 33rem;
-      margin-left: auto;
+    max-width: 33rem;
+    margin-left: auto;
   }
 
   .back {
@@ -38,7 +38,7 @@ aside {
   .aside-container {
     max-width: 31rem;
 
-    > img {
+    >img {
       margin-top: 2rem;
     }
   }

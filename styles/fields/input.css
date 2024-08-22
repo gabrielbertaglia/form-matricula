@@ -72,7 +72,7 @@ input {
     border: .125rem solid var(--semantic-error);
   }
 
-  & + small {
+  &+small {
     font: var(--text-small);
     color: #78716C;
 
@@ -80,7 +80,7 @@ input {
     margin-top: .25rem;
   }
 
-  &:required + .error {
+  &:required+.error {
     display: flex;
     align-items: center;
     gap: .25rem;
@@ -90,7 +90,7 @@ input {
     margin-top: .25rem;
   }
 
-  &:not(:focus):valid + .error {
+  &:not(:focus):valid+.error {
     display: none;
   }
 }
